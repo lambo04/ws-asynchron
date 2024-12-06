@@ -76,6 +76,6 @@ async function iterateWithAsyncAwait(values) {
     }
   }
   
-//   const urls = ["", ""];
-//   parallelCalls(urls);
+  const urls = ["https://jsonplaceholder.typicode.com/posts","https://jsonplaceholder.typicode.com/users"];
+  parallelCalls(urls);
   
